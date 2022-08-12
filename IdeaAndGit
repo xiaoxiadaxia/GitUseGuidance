@@ -1,0 +1,18 @@
+配置Git忽略文件
+  为什么要忽略文件？
+    与项目的实际功能无关，不参与服务器上部署运行。
+    把它们忽略掉能够屏蔽IDE工具之间的差异
+  怎么忽略？
+    1.创建忽略规则文件xxxx.ignore(前缀名随便起，建议是git.ignore)
+    这个文件的存放位置原则上在哪里都可以，为了便于让~/.gitconfig文件引用，建议也放在用户家目录下
+    git.ignore文件模版内容如下：
+    # Compiled class file
+    *.class
+    
+    # Log file
+    *.log
+    
+    # BlueJ files
+    *.ctxt
+    
+    # 

@@ -1,0 +1,2 @@
+ssh-keygen -t rsa -C qq2234323247@stu.zzu.edu.cn
+拿到.ssh文件夹下的id_rsa.pub里的公钥
